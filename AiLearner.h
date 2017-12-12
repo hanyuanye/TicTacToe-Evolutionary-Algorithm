@@ -53,6 +53,7 @@ class Learner
 		
 	//Constructor
 	Learner();
+	private:
 		std::vector<float> weights;
 		int player;
 		int fitness;   //Total wins - total losses
